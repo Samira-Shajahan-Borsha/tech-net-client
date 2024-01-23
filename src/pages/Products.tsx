@@ -32,7 +32,7 @@ export default function Products() {
   const handleSlider = (value: number[]) => {
     // console.log(value);
     dispatch(setPriceRange(value[0]));
-  };
+  };user
 
   let productsData;
 
